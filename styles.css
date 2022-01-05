@@ -1,0 +1,124 @@
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  font-size: 17px;
+
+}
+
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bphoto img{
+  width: 100%;
+  height: 100%;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+
+.whole div {
+  display: flex;
+  flex: 1 2 0%;
+}
+
+.whole aside {
+  display: flex;
+  flex-shrink: 1;
+  position: fixed;
+}
+.side ul,a {
+  list-style: none;
+  text-decoration: none;
+  color: yellow;
+  padding: 0px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 11px;
+  justify-content: center;
+  margin: 0px;
+  display: flex;
+
+
+}
+
+.sideone {
+  float: left;
+  display: flex;
+}
+
+.sidetwo {
+  float: right;
+  display: flex;
+}
+
+.nav a:hover {
+  background-color: #084f0f;
+  color: white;
+}
+
+
+.seasons p {
+  font-size: 1.19em;
+}
+
+.seasons {
+  margin: 15px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+ h1 {
+  margin: 0px;
+}
+
+
+.seasons div,h1,p{
+  display: flex;
+  width: 65%;
+}
+
+@media (max-width:768px) {
+
+  .seasons p {
+    font-size: 16px;
+  }
+
+  .whole div {
+    display: flex;
+    flex: 1 2 0%;
+  }
+
+  .whole aside {
+    display: flex;
+    flex-shrink: 1;
+  }
+
+  .side a {
+    font-size: 16px;
+  }
+
+  .seasons div,h1,p {
+    width: 100%;
+
+  }
+
+  }
